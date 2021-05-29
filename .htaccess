@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^post$ post.php [L,QSA]
+RewriteRule ^post/([a-zA-Z0-9_-]+)-([0-9])$ post.php?sef=$1&id=$2 [L,QSA]

@@ -1,13 +1,11 @@
-# SEO url - PHP
-This repository contains the source code of a project implementing an SEO URL structure using PHP. SEO (Search Engine Optimization) URLs help improve the visibility of your website by defining user-friendly and understandable URL structures that search engines can better comprehend.
+#SEO URL - PHP
+This repository provides the source code for a project that implements SEO-friendly URL structures using PHP. SEO (Search Engine Optimization) URLs enhance the visibility of your website by creating user-friendly and comprehensible URLs that search engines can easily understand.
 
 Features and Usage:
-- The project enables the mapping of dynamically generated URLs to static and SEO-friendly URLs.
-- With PHP, clean and descriptive URLs are created for users to access resources such as pages, content, products, etc.
-- SEO URLs can include keywords and meaningful terms, aiding better indexing by search engines.
-- The project adheres to SEO guidelines, including URL redirections and handling 404 errors.
-- Dynamic data from a database is associated with SEO-friendly URLs.
-
+- Dynamic to Static Mapping: The project allows mapping dynamically generated URLs to static, SEO-friendly URLs.
+- Clean and Descriptive URLs: Utilizes PHP to generate clean and descriptive URLs for easy access to resources such as pages, content, products, etc.
+- Keyword Integration: SEO URLs can include relevant keywords and meaningful terms, improving search engine indexing.
+- SEO Compliance: The project follows SEO best practices, including URL redirections and 404 error handling.
+- Database Integration: Links dynamic data from a database to SEO-friendly URLs.
 Example:
-- https://tolgahanacar.net/post/post-name-id
-
+https://tolgahanacar.net/post/post-name-id

@@ -1,4 +1,7 @@
-RewriteEngine on
+RewriteEngine On
 
+# Rewrite rule to handle 'post' requests
 RewriteRule ^post$ post.php [L,QSA]
-RewriteRule ^post/([a-zA-Z0-9_-]+)-([0-9])$ post.php?sef=$1&id=$2 [L,QSA]
+
+# Rewrite rule to handle 'post/{postname}-{id}' pattern
+RewriteRule ^post/([a-zA-Z0-9_-]+)-([0-9]+)$ post.php?sef=$1&id=$2 [L,QSA]

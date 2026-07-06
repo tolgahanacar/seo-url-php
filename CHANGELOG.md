@@ -12,11 +12,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is a major release featuring full modernization for modern PHP versions (up to PHP 8.5+), secure configuration design patterns, bug corrections, and a premium visual redesign.
 
 ### Added
-- **Configuration Layer:** Added `utility/config.php` for isolated local environment configurations (added to `.gitignore` to prevent secret leaks).
-- **GitHub Actions CI:** Introduced `.github/workflows/ci.yml` pipeline supporting automatic PHP linting checks from PHP 8.0 up to PHP 8.5.
+- **GitHub Actions CI:** Introduced `.github/workflows/ci.yml` pipeline supporting automatic PHP linting checks from PHP 8.0 up to PHP 8.5. Improved error propagation by shifting from xargs to strict find-exec.
 - **Modern Styling:** Built responsive, premium glassmorphism layouts with modern custom CSS variables and styling on both `index.php` and `post.php`.
 - **Strict Typing:** Implemented PHP `declare(strict_types=1)` declarations across all project files.
 - **Type Constraints:** Added explicit parameter types (`string $text`) and return types (`: string`) to helper functions.
+- **Configuration Layer:** Added `utility/config.php` for isolated local environment configurations (added to `.gitignore` to prevent secret leaks). Added `utility/config.php.example` as a template for developers and testing pipelines.
 
 ### Fixed
 - **SEO Slug Generation Bug:** Corrected the order of operations in `seolink()`. Accented and Turkish characters are now correctly replaced with Latin equivalents *before* non-alphanumeric characters are stripped.

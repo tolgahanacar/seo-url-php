@@ -1,0 +1,12 @@
+<?php
+declare(strict_types=1);
+
+// Database configuration template
+// Copy this file to config.php and update the credentials
+return [
+    'host' => 'localhost',
+    'dbname' => 'seourl',
+    'charset' => 'utf8mb4',
+    'username' => 'your_db_username',
+    'password' => 'your_db_password',
+];
